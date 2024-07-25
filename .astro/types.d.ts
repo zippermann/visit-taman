@@ -147,6 +147,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: any
 } & { render(): Render[".md"] };
+"e-katalog-batik.md": {
+	id: "e-katalog-batik.md";
+  slug: "panorama-batik-e-katalog";
+  body: string;
+  collection: "blog";
+  data: any
+} & { render(): Render[".md"] };
 "elevate-your-mobile-experience.md": {
 	id: "elevate-your-mobile-experience.md";
   slug: "elevate-your-mobile-experience-with-samsung";
@@ -164,13 +171,6 @@ declare module 'astro:content' {
 "immerse-in-the-virtual-world.md": {
 	id: "immerse-in-the-virtual-world.md";
   slug: "immerse-in-the-virtual-world-vr-development";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"world-of-drones.md": {
-	id: "world-of-drones.md";
-  slug: "soaring-to-new-heights-the-world-of-drones";
   body: string;
   collection: "blog";
   data: any

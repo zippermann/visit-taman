@@ -1,6 +1,6 @@
 ---
 title: 'Panorama Batik E-Katalog'
-pubDate: 2024-08-26
+pubDate: 2024-07-25
 author: 'I Gusti Ayu Maresta A.P.P'
 image: 'image5.png'
 tags: ['pandean', 'UMKM']

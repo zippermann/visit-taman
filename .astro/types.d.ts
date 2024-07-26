@@ -140,13 +140,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: any
 } & { render(): Render[".md"] };
-"cutting-edge-tablets.md": {
-	id: "cutting-edge-tablets.md";
-  slug: "unleash-creativity-with-these-cutting-edge-tablets";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
 "e-katalog-batik.md": {
 	id: "e-katalog-batik.md";
   slug: "panorama-batik-e-katalog";
@@ -164,6 +157,13 @@ declare module 'astro:content' {
 "guardian-of-the-digital-realm.md": {
 	id: "guardian-of-the-digital-realm.md";
   slug: "guardian-of-the-digital-realm-web-security";
+  body: string;
+  collection: "blog";
+  data: any
+} & { render(): Render[".md"] };
+"guidebook-pandean.md": {
+	id: "guidebook-pandean.md";
+  slug: "unleash-creativity-with-these-cutting-edge-tablets";
   body: string;
   collection: "blog";
   data: any

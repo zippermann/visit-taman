@@ -125,58 +125,7 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"blog": {
-"best-laptops-for-developers.md": {
-	id: "best-laptops-for-developers.md";
-  slug: "the-best-laptops-for-developers-in-2024";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"cannon-excellence.md": {
-	id: "cannon-excellence.md";
-  slug: "capturing-lifes-moments-with-canon-excellence";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"e-katalog-batik.md": {
-	id: "e-katalog-batik.md";
-  slug: "panorama-batik-e-katalog";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"elevate-your-mobile-experience.md": {
-	id: "elevate-your-mobile-experience.md";
-  slug: "elevate-your-mobile-experience-with-samsung";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"guardian-of-the-digital-realm.md": {
-	id: "guardian-of-the-digital-realm.md";
-  slug: "guardian-of-the-digital-realm-web-security";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"guidebook-pandean.md": {
-	id: "guidebook-pandean.md";
-  slug: "unleash-creativity-with-these-cutting-edge-tablets";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"immerse-in-the-virtual-world.md": {
-	id: "immerse-in-the-virtual-world.md";
-  slug: "immerse-in-the-virtual-world-vr-development";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-};
-"blogCollection": Record<string, {
+		"blogCollection": Record<string, {
   id: string;
   slug: string;
   body: string;
@@ -188,7 +137,12 @@ declare module 'astro:content' {
 	};
 
 	type DataEntryMap = {
-		
+		"blog": Record<string, {
+  id: string;
+  collection: "blog";
+  data: any;
+}>;
+
 	};
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;

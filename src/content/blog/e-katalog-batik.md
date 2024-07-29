@@ -2,7 +2,7 @@
 title: 'Panorama Batik E-Katalog'
 pubDate: 2024-07-25
 author: 'I Gusti Ayu Maresta A.P.P'
-image: 'image5.png'
+image: 'katalogbatik.JPG'
 tags: ['pandean', 'UMKM']
 slug: panorama-batik-e-katalog
 ---

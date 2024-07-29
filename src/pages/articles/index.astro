@@ -17,7 +17,7 @@ const allBlogArticles: CollectionEntry<'blog'>[] = (await getCollection ('blog')
     const articlesForPage: CollectionEntry<'blog'>[] = allBlogArticles.slice((currentPage - 1) * ARTICLES_PER_PAGE, currentPage * ARTICLES_PER_PAGE);
 ---
 
-<MainLayout>
+<MainLayout title="Semua Artikel">
     <h1 class="text-2xl pb-3">Semua Artikel</h1>
 
     <SearchForm />

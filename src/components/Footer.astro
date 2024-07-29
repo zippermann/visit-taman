@@ -11,31 +11,35 @@ const tags: string[] = allBlogArticles.flatMap((article: any) => article.data.ta
 const uniqueTags: string[] = [...new Set(tags)];
 ---
 <footer class="bg-cyan-900 text-white">
-    <div class="container mx-auto mt-10 max-w-screen-xl px-8">
-      <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
-        <div class="mt-10">
-          <h3 class="text-xl font-semibold mb-4">Tentang VisitTaman</h3>
-          <p class="text-sm">
-            Sebuah website dan blog untuk mencari artikel tentang wisata Taman.
-          </p>
-        </div>
-        <div class="mt-10">
-          <h3 class="text-xl font-semibold mb-4">Kategori</h3>
-          <ul class="text-sm">
-            {uniqueTags.map(tag => (
-              <li class="mb-2">
-                <a href={'/articles/tag/' + tag}>{capitalize(tag)}</a>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div class="mt-10">
-          <h3 class="text-xl font-semibold mb-4">Kontak Kami</h3>
-          <ul class="text-sm">
+  <div class="container mx-auto mt-10 max-w-screen-xl px-8">
+    <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="mt-10">
+        <h3 class="text-xl font-semibold mb-4">Tentang VisitTaman</h3>
+        <p class="text-sm">
+          Sebuah website dan blog untuk mencari artikel tentang wisata Taman.
+        </p>
+      </div>
+      <div class="mt-10">
+        <h3 class="text-xl font-semibold mb-4">Kategori</h3>
+        <ul class="text-sm">
+          {uniqueTags.map(tag => (
             <li class="mb-2">
-              <a href="mailto:temantaman49@gmail.com">Email</a>
-            <li class="mb-2">
-              <a href="https://www.instagram.com/kkn.temantaman/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href={'/articles/tag/' + tag}>{capitalize(tag)}</a>
             </li>
-          </ul>
+          ))}
+        </ul>
+      </div>
+      <div class="mt-10">
+        <h3 class="text-xl font-semibold mb-4">Kontak Kami</h3>
+        <ul class="text-sm">
+          <li class="mb-2">
+            <a href="mailto:temantaman49@gmail.com">Email</a>
+          </li> <!-- Close the li tag here -->
+          <li class="mb-2">
+            <a href="https://www.instagram.com/kkn.temantaman/?hl=en" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </li> <!-- Close the li tag here -->
+        </ul>
+      </div>
+    </div>
+  </div>
   </footer>

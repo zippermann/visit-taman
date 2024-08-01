@@ -125,7 +125,23 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"blogCollection": Record<string, {
+		"blog": {
+"e-katalog-batik.md": {
+	id: "e-katalog-batik.md";
+  slug: "panorama-batik-e-katalog";
+  body: string;
+  collection: "blog";
+  data: any
+} & { render(): Render[".md"] };
+"guidebook-pandean.md": {
+	id: "guidebook-pandean.md";
+  slug: "guidebook-tempat-wisata-pandean";
+  body: string;
+  collection: "blog";
+  data: any
+} & { render(): Render[".md"] };
+};
+"blogCollection": Record<string, {
   id: string;
   slug: string;
   body: string;
@@ -137,12 +153,7 @@ declare module 'astro:content' {
 	};
 
 	type DataEntryMap = {
-		"blog": Record<string, {
-  id: string;
-  collection: "blog";
-  data: any;
-}>;
-
+		
 	};
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;

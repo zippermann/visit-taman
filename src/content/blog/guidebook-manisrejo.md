@@ -1,7 +1,7 @@
 ---
 title: 'Guidebook UMKM Manisrejo'
 pubDate: 2024-08-05
-author: 'Katherine'
+author: 'Katherine Valencia P.'
 image: 'guidebook-manisrejo.jpeg'
 tags: ['manisrejo', 'UMKM', 'guidebook']
 slug: guidebook-umkm-manisrejo

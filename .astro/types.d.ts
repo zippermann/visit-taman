@@ -133,9 +133,30 @@ declare module 'astro:content' {
   collection: "blog";
   data: any
 } & { render(): Render[".md"] };
+"guidebook-manisrejo.md": {
+	id: "guidebook-manisrejo.md";
+  slug: "guidebook-umkm-manisrejo";
+  body: string;
+  collection: "blog";
+  data: any
+} & { render(): Render[".md"] };
 "guidebook-pandean.md": {
 	id: "guidebook-pandean.md";
   slug: "guidebook-tempat-wisata-pandean";
+  body: string;
+  collection: "blog";
+  data: any
+} & { render(): Render[".md"] };
+"kopi-taman.md": {
+	id: "kopi-taman.md";
+  slug: "5-tempat-ngopi-madiun";
+  body: string;
+  collection: "blog";
+  data: any
+} & { render(): Render[".md"] };
+"tempat-sejarah-taman.md": {
+	id: "tempat-sejarah-taman.md";
+  slug: "guidebook-tempat-bersejarah-taman";
   body: string;
   collection: "blog";
   data: any

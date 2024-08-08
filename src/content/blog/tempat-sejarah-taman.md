@@ -1,5 +1,5 @@
 ---
-title: 'Guidebook Tempat Bersejarah Sejarah di Taman'
+title: 'Guidebook Tempat Bersejarah di Taman'
 pubDate: 2024-08-06
 author: 'Radityo Dzaky Sularjo'
 image: 'guidebook-sejarah.jpeg'

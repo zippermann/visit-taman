@@ -3,7 +3,7 @@ title: 'Kampoeng Wisata Mojorejo'
 pubDate: 2024-08-07
 author: 'Amadea Dinara K.'
 image: '/kampoeng-mojo/cover.JPG'
-tags: ['mojorejo', 'UMKM', 'kuliner']
+tags: ['mojorejo', 'tempat Wisata']
 slug: kampoeng-wisata-mojorejo
 ---
 

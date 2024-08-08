@@ -13,5 +13,5 @@ Kelurahan Manisrejo di kecamatan Taman, kota Madiun, merupakan pusat pertumbuhan
 </iframe>
 
  <a href="/documents/guidebook-manisrejo.pdf" 
- download="Guidebook-manisrejo"
+ download="Guidebook-Manisrejo"
  class="inline-block rounded-lg border bg-gray-100 p-2 mb-6 hover:bg-tt-teal hover:text-white">Download PDF</a>

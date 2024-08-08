@@ -15,14 +15,13 @@ const mostRecentArticle: CollectionEntry<'blog'> = allBlogArticles[0];
 
 const otherArticles: CollectionEntry<'blog'>[] = allBlogArticles.slice(1);
 ---
-	<MainLayout title="Semua Tentang Taman">
+	<MainLayout title="Semua Tentang Taman, Madiun">
 		<!-- Top Grid -->
 		<div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
 		<div>
 			<h1 class="text-5xl font-bold mt-4 mb-8 leading-tight xl:text-6xl">
 			Ayo Jelajahi Kecamatan Taman, Madiun!
 			</h1>
-
 			<SearchForm />
 		</div>
 		<MostRecentArticle article={mostRecentArticle} />

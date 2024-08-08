@@ -125,72 +125,7 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"blog": {
-"e-katalog-batik.md": {
-	id: "e-katalog-batik.md";
-  slug: "panorama-batik-e-katalog";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"guidebook-manisrejo.md": {
-	id: "guidebook-manisrejo.md";
-  slug: "guidebook-umkm-manisrejo";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"guidebook-pandean.md": {
-	id: "guidebook-pandean.md";
-  slug: "guidebook-tempat-wisata-pandean";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"kampung-wisata-mojorejo.md": {
-	id: "kampung-wisata-mojorejo.md";
-  slug: "kampoeng-wisata-mojorejo";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"kopi-taman.md": {
-	id: "kopi-taman.md";
-  slug: "5-tempat-ngopi-madiun";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"mural.md": {
-	id: "mural.md";
-  slug: "revitalisasi-mural-mojorejo";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"tempat-sejarah-taman.md": {
-	id: "tempat-sejarah-taman.md";
-  slug: "guidebook-tempat-bersejarah-taman";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"umkm-mojorejo.md": {
-	id: "umkm-mojorejo.md";
-  slug: "artikel-umkm-mojorejo";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-"wisata-religi.md": {
-	id: "wisata-religi.md";
-  slug: "wisata-religi-taman";
-  body: string;
-  collection: "blog";
-  data: any
-} & { render(): Render[".md"] };
-};
-"blogCollection": Record<string, {
+		"blogCollection": Record<string, {
   id: string;
   slug: string;
   body: string;
@@ -202,7 +137,12 @@ declare module 'astro:content' {
 	};
 
 	type DataEntryMap = {
-		
+		"blog": Record<string, {
+  id: string;
+  collection: "blog";
+  data: any;
+}>;
+
 	};
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;

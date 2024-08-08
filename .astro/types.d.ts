@@ -182,6 +182,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: any
 } & { render(): Render[".md"] };
+"pendaftaran-umkm.md": {
+	id: "pendaftaran-umkm.md";
+  slug: "cara-mendaftar-umkm-di-taman";
+  body: string;
+  collection: "blog";
+  data: any
+} & { render(): Render[".md"] };
 "tempat-sejarah-taman.md": {
 	id: "tempat-sejarah-taman.md";
   slug: "guidebook-tempat-bersejarah-taman";

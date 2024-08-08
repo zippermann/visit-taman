@@ -91,6 +91,8 @@ Selain ayam panggang, Ayam Panggang Bu Mirah  juga menyajikan menu pilihan lainn
 
 ## **Lapangan Mojorejo**
 
+<img src="/images/umkm-mojo/lapangan.jpeg" alt="Article Image" class="w-500px h-auto rounded-xl my-6"/>
+
 # **Lapangan Mojorejo: Ikon Wisata dan Pusat Kuliner**
 
 Lapangan Mojorejo, yang memiliki luas 4.200 m², merupakan salah satu ikon wisata di Kelurahan Mojorejo. Meskipun dikenal sebagai tanah lapang, tempat ini juga menjadi pusat kuliner unggulan dengan berbagai hidangan khas yang menggugah selera. Di sini, pengunjung dapat menikmati beragam kuliner seperti tepo tahu, nasi pecel, soto kutilang, dan banyak lagi. Kuliner-kuliner ini telah ada sejak puluhan tahun lalu, diwariskan dari generasi ke generasi, dengan cita rasa autentik yang sulit ditemukan di tempat lain.

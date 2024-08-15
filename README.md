@@ -18,3 +18,4 @@ slug: 5-tempat-ngopi-madiun --> nama page dalam domain
 1. Format tanggal masih dalam bahasa Inggris
 2. Ukuran komponen kartu artikel tidak sama semua (fit sesuai judul artikel)
 3. Penambahan fitur/gallery pada halaman utama
+4. tes

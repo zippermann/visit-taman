@@ -168,6 +168,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: any
 } & { render(): Render[".md"] };
+"kuliner-banjarejo.md": {
+	id: "kuliner-banjarejo.md";
+  slug: "kuliner-banjarejo";
+  body: string;
+  collection: "blog";
+  data: any
+} & { render(): Render[".md"] };
 "kuliner-manisrejo.md": {
 	id: "kuliner-manisrejo.md";
   slug: "kuliner-umkm-manisrejo";
